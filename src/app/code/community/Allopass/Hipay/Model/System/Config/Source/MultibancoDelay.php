@@ -27,9 +27,9 @@ class Allopass_Hipay_Model_System_Config_Source_MultibancoDelay
     {
         if (!$this->_options) {
             $this->_options = array(
-                3 => '3 days',
-                30 => '30 days',
-                90 => '90 days'
+                3 => Mage::helper('hipay')->__('3 days'),
+                30 => Mage::helper('hipay')->__('30 days'),
+                90 => Mage::helper('hipay')->__('90 days')
             );
         }
         return $this->_options;
