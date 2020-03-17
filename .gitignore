@@ -10,6 +10,7 @@ package/*
 *.env
 dist
 .idea
+.vscode
 web
 data
 !src/app/code/community/Allopass/Hipay/data
@@ -18,4 +19,4 @@ bin/tests/result.xml
 bin/tests/errors/*
 bin/tests/exportVariables.sh
 docker-compose.stage-*.yml
-src/lib/Hipay/hipay-full-service-sdk-php
+src/lib/Hipay/hipay-fullservice-sdk-php
